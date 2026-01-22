@@ -42,7 +42,7 @@ git init
 git status
 ```
 
-## ➕ Adicionando arquivos ao Stage
+### ➕ Adicionando arquivos ao Stage
  Adicionar um arquivo específico:
 
 ```bash
@@ -55,14 +55,14 @@ git add nome-do-arquivo
 git add .
 ```
 
-## 📝 Criar um commit
+### 📝 Criar um commit
 
 
 ```bash
 git commit -m "mensagem descritiva do commit"
 ```
 
-## 📜Histórico e alterações
+### 📜Histórico e alterações
  Ver histórico de commits
 
 ```bash
@@ -75,7 +75,7 @@ git log
 git diff
 ```
 
-## 🌿 Branches
+### 🌿 Branches
  Criar uma nova branch
 
 ```bash
@@ -88,7 +88,7 @@ git branch nome-da-branch
 git checkout -b nome-da-branch
 ```
 
-## 🔗 Repositório Remoto (GitHub)
+### 🔗 Repositório Remoto (GitHub)
  Adicionar repositório remoto
 
 ```bash
@@ -101,7 +101,7 @@ git remote add origin https://github.com/usuario/repositorio.git
 git remote -v
 ```
 
-## ⬆️ Enviar alterações para o GitHub
+### ⬆️ Enviar alterações para o GitHub
 
 ```bash
 git push origin main
@@ -113,19 +113,19 @@ git push origin main
 git push -u origin main
 ```
 
-## ⬇️ Atualizar repositório local
+### ⬇️ Atualizar repositório local
 
 ```bash
 git pull origin main
 ```
 
-## 📥 Clonar um repositório
+### 📥 Clonar um repositório
 
 ```bash
 git clone https://github.com/usuario/repositorio.git
 ```
 
-## 🛑 Ignorar arquivos com .gitignore
+### 🛑 Ignorar arquivos com .gitignore
 Criar o arquivo:
 
 ```bash
