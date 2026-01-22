@@ -146,6 +146,14 @@ node_modules/
 git remote add origin https://...
 ```
 
+## ⚠️⚠️ Fluxo desde 0 ⚠️⚠️
+```bash
+git init
+git add .
+git commit -m "mensagem"
+git remote add origin https://...
+git push -u origin main
+```
 
 ## 🔎 Referências
 - [Digital Inonovation One](https://web.dio.me/)
