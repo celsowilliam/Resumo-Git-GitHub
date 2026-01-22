@@ -140,6 +140,11 @@ node_modules/
 *.log
 ```
 
+## Conectar o repositório local ao GitHub
+
+```bash
+git remote add origin https://...
+```
 
 
 ## 🔎 Referências
