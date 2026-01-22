@@ -41,7 +41,7 @@ git init
 ```bash
 git status
 ```
-
+---
 ### ➕ Adicionando arquivos ao Stage
  Adicionar um arquivo específico:
 
@@ -54,14 +54,14 @@ git add nome-do-arquivo
 ```bash
 git add .
 ```
-
+---
 ### 📝 Criar um commit
 
 
 ```bash
 git commit -m "mensagem descritiva do commit"
 ```
-
+---
 ### 📜Histórico e alterações
  Ver histórico de commits
 
@@ -74,7 +74,7 @@ git log
 ```bash
 git diff
 ```
-
+---
 ### 🌿 Branches
  Criar uma nova branch
 
@@ -87,7 +87,7 @@ git branch nome-da-branch
 ```bash
 git checkout -b nome-da-branch
 ```
-
+---
 ### 🔗 Repositório Remoto (GitHub)
  Adicionar repositório remoto
 
@@ -100,7 +100,7 @@ git remote add origin https://github.com/usuario/repositorio.git
 ```bash
 git remote -v
 ```
-
+---
 ### ⬆️ Enviar alterações para o GitHub
 
 ```bash
@@ -112,19 +112,19 @@ git push origin main
 ```bash
 git push -u origin main
 ```
-
+---
 ### ⬇️ Atualizar repositório local
 
 ```bash
 git pull origin main
 ```
-
+---
 ### 📥 Clonar um repositório
 
 ```bash
 git clone https://github.com/usuario/repositorio.git
 ```
-
+---
 ### 🛑 Ignorar arquivos com .gitignore
 Criar o arquivo:
 
