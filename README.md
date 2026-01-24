@@ -7,7 +7,7 @@ do curso Versionamento de Código com **Git** e **GitHub** da [Digital Innovatio
 - [Documentação do Git](https://git-scm.com/doc)
 - [Documentação do GitHub](https://docs.github.com/pt/get-started)
 - [Sintaxe Markdown do GitHub](https://docs.github.com/pt/get-started/writing-on-github)
-
+Só um teste pae
 ## 👨‍💻 Resumos das aulas
 
 | Aula | Conteúdo |
