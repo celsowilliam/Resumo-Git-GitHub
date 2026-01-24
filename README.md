@@ -23,6 +23,10 @@ do curso Versionamento de Código com **Git** e **GitHub** da [Digital Innovatio
 ```bash
 mkdir nome-da-pasta
 ```
+Criar um arquivo vazio
+```bash
+touch nome-da-pasta
+```
 
 ### 📂 Acessar uma pasta
 
@@ -67,6 +71,11 @@ git commit -m "mensagem descritiva do commit"
 
 ```bash
 git log
+```
+
+#### Alterações mais detalhadas
+```bash
+git reflog
 ```
 
 #### Ver alterações antes do commit
