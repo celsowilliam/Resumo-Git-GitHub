@@ -107,7 +107,7 @@ git remote -v
 git push origin main
 ```
 
-#### *Primeiro push (quando necessário):*
+#### Primeiro push (quando necessário):
 
 ```bash
 git push -u origin main
@@ -140,13 +140,13 @@ node_modules/
 *.log
 ```
 
-## Conectar o repositório local ao GitHub
+### Conectar o repositório local ao GitHub
 
 ```bash
 git remote add origin https://...
 ```
 
-## ⚠️⚠️ Fluxo desde 0 ⚠️⚠️
+### ⚠️⚠️ Fluxo desde 0 para commit ⚠️⚠️
 ```bash
 git init
 git add .
@@ -154,14 +154,53 @@ git commit -m "mensagem"
 git remote add origin https://...
 git push -u origin main
 ```
+---
+### Remover branch 
+Numa (main) que deseja não ser mais:
+```bash
+rm -rf .git
+```
+
+### Restaurar branch
+Para restaurar na última versão salva
+```bash
+git restore
+```
+Este comando descarta todas as alterações localmente!
+---
+
+### Alterar mensagem do último commit
+```bash
+git commit --amend -m"msg"
+```
+
+### ✒️Desfazer um commit, retornando pra um anterior
+
+Não perde nenhum arquivo
+#### RESET
+```bash
+git reset --soft 7a13eb549ad9068143d0bee8545bde(codigo-do-commit que quer retornar)
+```
+---
+
+Todos os arquivos vão para nossa árvore de trabalho:
+#### MIXED
+```bash
+git reset --mixed 7a13eb549ad908545bde(codigo-do-commit que quer retornar)
+
+ou
+
+git reset 7a13eb549ad9068143dc38545bde(codigo-do-commit que quer retornar)
+```
+---
+
+Apaga tudo e retorna para a branch direcionada: 
+#### HARD
+```bash
+git reset --hard
+```
+
+
 
 ## 🔎 Referências
 - [Digital Inonovation One](https://web.dio.me/)
-
-## 📖 Códigos
-
-
-
-
-
-
